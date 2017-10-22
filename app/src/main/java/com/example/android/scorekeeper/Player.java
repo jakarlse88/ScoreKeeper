@@ -10,6 +10,20 @@ public class Player {
     }
 
     /**
+     * Sets score directly.
+     */
+    public void setScore(int i) {
+        score = i;
+    }
+
+    /**
+     * Sets warnings directly.
+     */
+    public void setWarnings(int i) {
+        warnings = i;
+    }
+
+    /**
      * Returns score.
      */
     public int getScore() {
