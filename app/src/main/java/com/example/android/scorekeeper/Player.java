@@ -13,14 +13,14 @@ public class Player {
      * Sets score directly.
      */
     public void setScore(int i) {
-        score = i;
+        score += i;
     }
 
     /**
      * Sets warnings directly.
      */
     public void setWarnings(int i) {
-        warnings = i;
+        warnings += i;
     }
 
     /**
@@ -35,33 +35,5 @@ public class Player {
      */
     public int getWarnings() {
         return warnings;
-    }
-
-    /**
-     * Increments warnings by one.
-     */
-    public void incrementWarnings() {
-        warnings++;
-    }
-
-    /**
-     * Increments score by one.
-     */
-    public void scoreIncrement() {
-        score++;
-    }
-
-    /**
-     * Increments score by two.
-     */
-    public void scoreIncrementTwo() {
-        score += 2;
-    }
-
-    /**
-     * Increments score by three.
-     */
-    public void scoreIncrementThree() {
-        score += 3;
     }
 }
