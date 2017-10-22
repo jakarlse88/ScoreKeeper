@@ -14,17 +14,4 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    /**
-     * Displays given score. Updates score for red if player == 1,
-     * else for blue.
-     */
-    public void displayScore(int score, int player) {
-    }
-
-    /**
-     * Increments score by one.
-     */
-    public void incrementScore(int score) {
-        score++;
-    }
 }
