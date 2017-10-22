@@ -27,6 +27,7 @@
                 android:layout_height="35dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginStart="8dp"
+                android:onClick="redWarnings"
                 android:text="@string/penalty"
                 android:textSize="12sp"/>
 
@@ -44,12 +45,12 @@
         </LinearLayout>
         <!-- Track score -->
         <TextView
-            android:textColor="@android:color/white"
             android:id="@+id/red_player_score"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:text="@integer/initial"
+            android:textColor="@android:color/white"
             android:textSize="175dp"/>
 
         <!-- Increment score -->
@@ -62,16 +63,19 @@
             <Button
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
+                android:onClick="redScoreIncrement"
                 android:text="@string/score_one"/>
 
             <Button
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
+                android:onClick="redScoreTwo"
                 android:text="@string/score_two"/>
 
             <Button
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
+                android:onClick="redScoreThree"
                 android:text="@string/score_three"/>
 
         </LinearLayout>
@@ -93,29 +97,8 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
             android:layout_marginTop="50dp"
+            android:onClick="reset"
             android:text="@string/reset"/>
-
-        <!-- Round indicator -->
-        <TextView
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="80dp"
-            android:gravity="center_horizontal"
-            android:text="@string/round"
-            android:textAllCaps="true"
-            android:textColor="@android:color/background_dark"
-            android:textSize="30sp"/>
-
-        <TextView
-            android:textStyle="bold"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:text="@integer/init_round"
-            android:textAllCaps="true"
-            android:textColor="@android:color/background_dark"
-            android:textSize="30sp"/>
 
     </LinearLayout>
 
@@ -140,6 +123,7 @@
                 android:layout_height="35dp"
                 android:layout_marginEnd="30dp"
                 android:layout_marginStart="8dp"
+                android:onClick="blueWarnings"
                 android:text="@string/penalty"
                 android:textSize="12sp"/>
 
@@ -158,13 +142,13 @@
 
         <!-- Track score -->
         <TextView
-            android:textColor="@android:color/white"
             android:id="@+id/blue_player_score"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:text="@integer/initial"
-            android:textSize="175sp"/>
+            android:textColor="@android:color/white"
+            android:textSize="175sp" />
 
         <!-- Increment score -->
         <LinearLayout
@@ -176,17 +160,20 @@
             <Button
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
-                android:text="@string/score_one"/>
+                android:text="@string/score_one"
+                android:onClick="blueScore"/>
 
             <Button
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
-                android:text="@string/score_two"/>
+                android:text="@string/score_two"
+                android:onClick="blueScoreTwo"/>
 
             <Button
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
-                android:text="@string/score_three"/>
+                android:text="@string/score_three"
+                android:onClick="blueScoreThree"/>
 
         </LinearLayout>
 

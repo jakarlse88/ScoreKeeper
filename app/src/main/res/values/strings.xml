@@ -6,6 +6,5 @@
     <string name="penalty">Penalty</string>
     <integer name="initial">0</integer>
     <string name="round">Round</string>
-    <integer name="init_round">1</integer>
     <string name="reset">Reset</string>
 </resources>
