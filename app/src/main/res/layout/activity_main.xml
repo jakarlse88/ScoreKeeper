@@ -4,7 +4,8 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal">
+    android:orientation="horizontal"
+    android:baselineAligned="false">
 
     <!-- Red player -->
     <LinearLayout
@@ -51,28 +52,38 @@
             android:gravity="center_horizontal"
             android:text="@integer/initial"
             android:textColor="@android:color/white"
-            android:textSize="175dp"/>
+            android:textSize="175sp"/>
 
         <!-- Increment score -->
         <LinearLayout
+            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="4dp"
+            android:layout_marginStart="4dp"
             android:orientation="horizontal">
 
             <Button
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
                 android:onClick="redScoreIncrement"
                 android:text="@string/score_one"/>
 
             <Button
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
                 android:onClick="redScoreTwo"
                 android:text="@string/score_two"/>
 
             <Button
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
                 android:onClick="redScoreThree"
@@ -152,24 +163,34 @@
 
         <!-- Increment score -->
         <LinearLayout
+            style="?android:attr/buttonBarStyle"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="8dp"
+            android:layout_marginStart="8dp"
             android:orientation="horizontal">
 
             <Button
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
                 android:text="@string/score_one"
                 android:onClick="blueScore"/>
 
             <Button
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
                 android:text="@string/score_two"
                 android:onClick="blueScoreTwo"/>
 
             <Button
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                style="?android:attr/buttonBarButtonStyle"
                 android:layout_width="75dp"
                 android:layout_height="match_parent"
                 android:text="@string/score_three"
