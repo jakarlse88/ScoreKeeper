@@ -2,7 +2,6 @@ package com.example.android.scorekeeper;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -20,9 +19,6 @@ public class MainActivity extends AppCompatActivity {
      * else for blue.
      */
     public void displayScore(int score, int player) {
-        if (player == 1) {
-            TextView redPlayerScore = (TextView) findViewById(red;
-        }
     }
 
     /**
