@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">ScoreKeeper</string>
+    <integer name="red_score">0</integer>
+    <integer name="blue_score">0</integer>
+</resources>
