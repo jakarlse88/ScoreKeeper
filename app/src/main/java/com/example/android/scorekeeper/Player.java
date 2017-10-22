@@ -1,8 +1,10 @@
+package com.example.android.scorekeeper;
+
 public class Player {
     private int score;
     private int warnings;
 
-    Score() {
+    Player() {
         score = 0;
         warnings = 0;
     }
