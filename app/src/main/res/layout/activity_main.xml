@@ -22,21 +22,21 @@
             android:gravity="center"
             android:layout_margin="8dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_marginRight="8dp"
-                android:layout_height="match_parent"
-                android:textSize="16dp"
-                android:text="Kyong-go: \n0"
-                android:textColor="@android:color/white"
-                android:textStyle="bold"/>
+            <Button
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:textSize="12sp"
+                android:text="@string/penalty"/>
 
             <TextView
-                android:layout_marginLeft="8dp"
+                android:gravity="center_vertical"
                 android:layout_width="wrap_content"
+                android:layout_marginStart="14dp"
                 android:layout_height="match_parent"
-                android:textSize="16dp"
-                android:text="Gam-jeom: \n0"
+                android:textSize="35sp"
+                android:text="@integer/initial"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"/>
 
@@ -46,7 +46,7 @@
             android:id="@+id/red_player_score"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@integer/red_score"
+            android:text="@integer/initial"
             android:textSize="175dp"
             android:gravity="center_horizontal"/>
 
@@ -101,21 +101,21 @@
             android:gravity="center"
             android:layout_margin="8dp">
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_marginRight="8dp"
-                android:layout_height="match_parent"
-                android:textSize="16dp"
-                android:text="Kyong-go: \n0"
-                android:textColor="@android:color/white"
-                android:textStyle="bold"/>
+            <Button
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="30dp"
+                android:layout_width="100dp"
+                android:layout_height="35dp"
+                android:textSize="12sp"
+                android:text="@string/penalty"/>
 
             <TextView
-                android:layout_marginLeft="8dp"
+                android:gravity="center_vertical"
                 android:layout_width="wrap_content"
+                android:layout_marginStart="14dp"
                 android:layout_height="match_parent"
-                android:textSize="16dp"
-                android:text="Gam-jeom: \n0"
+                android:textSize="35sp"
+                android:text="@integer/initial"
                 android:textColor="@android:color/white"
                 android:textStyle="bold"/>
 
@@ -126,7 +126,7 @@
             android:id="@+id/blue_player_score"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@integer/red_score"
+            android:text="@integer/initial"
             android:textSize="175dp"
             android:gravity="center_horizontal"/>
 

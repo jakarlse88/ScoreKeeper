@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">ScoreKeeper</string>
-    <integer name="red_score">0</integer>
-    <integer name="blue_score">0</integer>
     <string name="score_one">1</string>
     <string name="score_two">2</string>
     <string name="score_three">3</string>
+    <string name="penalty">Penalty</string>
+    <integer name="initial">0</integer>
 </resources>
