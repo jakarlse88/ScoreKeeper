@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
      * Displays blue warnings.
      */
     public void displayBlueWarnings(int i) {
-        TextView blueWarnings = (TextView) findViewById(R.id.blue_player_warnings;
+        TextView blueWarnings = (TextView) findViewById(R.id.blue_player_warnings);
         blueWarnings.setText(i);
     }
 }
