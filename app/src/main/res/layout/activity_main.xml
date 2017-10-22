@@ -8,36 +8,36 @@
 
     <!-- Red player -->
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="0dp"
-        android:layout_weight="2"
         android:layout_height="match_parent"
-        android:background="@android:color/holo_red_dark">
+        android:layout_weight="2"
+        android:background="@android:color/holo_red_dark"
+        android:orientation="vertical">
 
         <!-- Penalty tracking -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_margin="8dp"
             android:gravity="center"
-            android:layout_margin="8dp">
+            android:orientation="horizontal">
 
             <Button
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="30dp"
                 android:layout_width="100dp"
                 android:layout_height="35dp"
-                android:textSize="12sp"
-                android:text="@string/penalty"/>
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/penalty"
+                android:textSize="12sp"/>
 
             <TextView
-                android:gravity="center_vertical"
                 android:layout_width="wrap_content"
-                android:layout_marginStart="14dp"
                 android:layout_height="match_parent"
-                android:textSize="35sp"
+                android:layout_marginStart="14dp"
+                android:gravity="center_vertical"
                 android:text="@integer/initial"
                 android:textColor="@android:color/white"
+                android:textSize="35sp"
                 android:textStyle="bold"/>
 
         </LinearLayout>
@@ -46,16 +46,16 @@
             android:id="@+id/red_player_score"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:text="@integer/initial"
-            android:textSize="175dp"
-            android:gravity="center_horizontal"/>
+            android:textSize="175dp"/>
 
         <!-- Increment score -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginLeft="4dp">
+            android:layout_marginLeft="4dp"
+            android:orientation="horizontal">
 
             <Button
                 android:layout_width="75dp"
@@ -79,74 +79,74 @@
 
     <!-- Middle demarcator -->
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="0dp"
-        android:layout_weight="1"
         android:layout_height="match_parent"
-        android:background="@android:color/darker_gray">
+        android:layout_weight="1"
+        android:background="@android:color/darker_gray"
+        android:orientation="vertical">
 
         <!-- Reset button -->
         <Button
-            android:layout_marginTop="30dp"
-            android:layout_gravity="center_horizontal"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="30dp"
             android:text="@string/reset"/>
 
         <!-- Round indicator -->
         <TextView
-            android:layout_marginTop="50dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/round"
-            android:textSize="30sp"
+            android:layout_marginTop="50dp"
             android:gravity="center_horizontal"
+            android:text="@string/round"
+            android:textAllCaps="true"
             android:textColor="@android:color/background_dark"
-            android:textAllCaps="true"/>
+            android:textSize="30sp"/>
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@integer/init_round"
-            android:textSize="30sp"
             android:gravity="center_horizontal"
-            android:textColor="@android:color/background_dark"
+            android:text="@integer/init_round"
             android:textAllCaps="true"
+            android:textColor="@android:color/background_dark"
+            android:textSize="30sp"
 
     </LinearLayout>
 
     <!-- Blue player -->
     <LinearLayout
-        android:orientation="vertical"
         android:layout_width="0dp"
-        android:layout_weight="2"
         android:layout_height="match_parent"
-        android:background="@android:color/holo_blue_dark">
+        android:layout_weight="2"
+        android:background="@android:color/holo_blue_dark"
+        android:orientation="vertical">
 
         <!-- Track penalties -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
+            android:layout_margin="8dp"
             android:gravity="center"
-            android:layout_margin="8dp">
+            android:orientation="horizontal">
 
             <Button
-                android:layout_marginStart="8dp"
-                android:layout_marginEnd="30dp"
                 android:layout_width="100dp"
                 android:layout_height="35dp"
-                android:textSize="12sp"
-                android:text="@string/penalty"/>
+                android:layout_marginEnd="30dp"
+                android:layout_marginStart="8dp"
+                android:text="@string/penalty"
+                android:textSize="12sp"/>
 
             <TextView
-                android:gravity="center_vertical"
                 android:layout_width="wrap_content"
-                android:layout_marginStart="14dp"
                 android:layout_height="match_parent"
-                android:textSize="35sp"
+                android:layout_marginStart="14dp"
+                android:gravity="center_vertical"
                 android:text="@integer/initial"
                 android:textColor="@android:color/white"
+                android:textSize="35sp"
                 android:textStyle="bold"/>
 
         </LinearLayout>
@@ -156,16 +156,16 @@
             android:id="@+id/blue_player_score"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
             android:text="@integer/initial"
-            android:textSize="175dp"
-            android:gravity="center_horizontal"/>
+            android:textSize="175dp"/>
 
         <!-- Increment score -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginLeft="8dp">
+            android:layout_marginLeft="8dp"
+            android:orientation="horizontal">
 
             <Button
                 android:layout_width="75dp"
