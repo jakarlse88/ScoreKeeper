@@ -6,6 +6,7 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
+    <!-- Red player -->
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="0dp"
@@ -13,6 +14,7 @@
         android:layout_height="match_parent"
         android:background="@android:color/holo_red_dark">
 
+        <!-- Penalty tracking -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -39,7 +41,7 @@
                 android:textStyle="bold"/>
 
         </LinearLayout>
-
+        <!-- Track score -->
         <TextView
             android:id="@+id/red_player_score"
             android:layout_width="match_parent"
@@ -48,8 +50,34 @@
             android:textSize="175dp"
             android:gravity="center_horizontal"/>
 
+        <!-- Increment score -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="4dp">
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="@string/score_one"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="@string/score_two"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="@string/score_three"/>
+
+        </LinearLayout>
+
+
     </LinearLayout>
 
+    <!-- Middle demarcator -->
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="0dp"
@@ -57,6 +85,7 @@
         android:layout_height="match_parent">
     </LinearLayout>
 
+    <!-- Blue player -->
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="0dp"
@@ -64,6 +93,7 @@
         android:layout_height="match_parent"
         android:background="@android:color/holo_blue_dark">
 
+        <!-- Track penalties -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -91,6 +121,7 @@
 
         </LinearLayout>
 
+        <!-- Track score -->
         <TextView
             android:id="@+id/blue_player_score"
             android:layout_width="match_parent"
@@ -98,6 +129,30 @@
             android:text="@integer/red_score"
             android:textSize="175dp"
             android:gravity="center_horizontal"/>
+
+        <!-- Increment score -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp">
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="@string/score_one"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="@string/score_two"/>
+
+            <Button
+                android:layout_width="75dp"
+                android:layout_height="match_parent"
+                android:text="@string/score_three"/>
+
+        </LinearLayout>
 
     </LinearLayout>
 
