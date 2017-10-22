@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void displayRedScore(int i) {
         TextView redScore = (TextView) findViewById(R.id.red_player_score);
-        redScore.setText(i);
+        redScore.setText(String.valueOf(i));
     }
 
     /**
@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void displayRedWarnings(int i) {
         TextView redWarnings = (TextView) findViewById(R.id.red_player_warnings);
-        redWarnings.setText(i);
+        redWarnings.setText(String.valueOf(i));
     }
 
     /**
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void displayBlueScore(int i) {
         TextView blueScore = (TextView) findViewById(R.id.blue_player_score);
-        blueScore.setText(i);
+        blueScore.setText(String.valueOf(i));
     }
 
     /**
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void displayBlueWarnings(int i) {
         TextView blueWarnings = (TextView) findViewById(R.id.blue_player_warnings);
-        blueWarnings.setText(i);
+        blueWarnings.setText(String.valueOf(i));
     }
 
     /**
